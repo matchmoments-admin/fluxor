@@ -1,6 +1,8 @@
-# Fluxor - Build a Cursor AI Alternative
+# Fluxor - Cloud-Based IDE
 
-This is a **fully-featured cloud IDE** based on the comprehensive [YouTube tutorial series](https://youtu.be/Xf9rHPNBMyQ) by Code with Antonio.
+A **fully-featured cloud IDE** inspired by Cursor AI, based on the comprehensive [YouTube tutorial series](https://youtu.be/Xf9rHPNBMyQ) by Code with Antonio.
+
+Live at: [fluxor.au](https://fluxor.au)
 
 [![Watch the Tutorial](https://img.shields.io/badge/YouTube-Watch%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtu.be/Xf9rHPNBMyQ)
 
