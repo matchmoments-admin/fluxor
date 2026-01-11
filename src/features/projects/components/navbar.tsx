@@ -95,7 +95,7 @@ export const Navbar = ({
                         font.className,
                       )}
                     >
-                      Polaris
+                      Fluxor
                     </span>
                   </Link>
                 </Button>
