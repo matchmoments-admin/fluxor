@@ -2,7 +2,7 @@ import { z } from "zod";
 import { generateText, Output } from "ai";
 import { NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
-import { anthropic } from "@ai-sdk/anthropic";
+import { google } from "@ai-sdk/google";
 
 import { firecrawl } from "@/lib/firecrawl";
 
@@ -102,7 +102,7 @@ export async function POST(request: Request) {
       .replace("{documentation}", documentationContext);
 
     const { output } = await generateText({
-      model: anthropic("claude-3-7-sonnet-20250219"),
+      model: google("gemini-2.0-flash-exp"),
       output: Output.object({ schema: quickEditSchema }),
       prompt,
     });
